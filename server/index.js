@@ -15,7 +15,7 @@ app.use(express.json());
 
 // MongoDB connection
 mongoose.connect(
-  "mongodb+srv://mongo:mongo123@cluster0.tibryt6.mongodb.net/PRODIGY_FS_04",
+  "YOUR MONGO URI",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
